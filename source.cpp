@@ -17,14 +17,28 @@ int startaccuracy
 int charcreate()
 {
 	cout << "Welcome to Endless Sea" << endl;
-	cout << "Let's begin by creating a cahracter."
+	cout << "Let's begin by creating a cahracter.";
 	
 }
 
 int main()
+
 {
-	cout << "Endless Sea" << endl;
-	cout << "Please Select From The Following Options: "
+	int menuselection = 0
+	
+	if (menuselection >= 4 || <=0)
+	{
+		cout << "Endless Sea" << endl;
+		cout << endl;
+		cout << "1) New Game" << endl;
+		cout << "2) Load Game" << endl;
+		cout << "3) Close Game" << endl;
+		cout << "Please Select From The Following Options: ";
+		cin >> menuselection;
+		cout << endl;
+	}
+	
+	
 	
 	
 	
